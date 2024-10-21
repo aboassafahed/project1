@@ -1,0 +1,96 @@
+
+/* global css*/
+
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+.container{
+  padding: 0 25px;
+  margin: 0 auto;
+}
+body{
+  font-family: "cairo" ,sens-serfe;
+}
+.shadow{
+  box-shadow: 1px 1px 10px 1px #cbcbcb;
+}
+.p-2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* header */
+.d-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.flex-1{
+  flex: 1;
+  justify-content: flex-start;
+  gap: 20px;
+}
+/* .login{
+
+    height: "80vh";
+    display: "flex" ;
+    align-items: "center";
+    justify-content:" center";
+
+} */
+
+
+/* Sign up*/
+
+form{
+ 
+  padding: 20px;
+  }
+  input{
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0 ,0.1);
+    transition: 0.3s;
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+  
+put:focus{
+  border: 2px solid  #3cb7f3;
+  }
+  input::placeholder{
+    color: rgb(0,0,0 ,0.3);
+    }
+  .register button,
+  .register_nav{
+    outline: none;
+    border: none;
+    background-color: #3cb7f3;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .register button:hover ,
+  .register_nav:hover{
+    background-color: white;
+    border: 2px solid #8cb7fc;
+    color: #8cb7fc;
+  }
+  .error{
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  
+  
